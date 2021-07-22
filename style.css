@@ -2,17 +2,34 @@ body {
     background-color: blue; 
 }
 .img-drum {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
     }
-.keys{
-    width: 100%;
-    padding: 10px;
-    margin-left: 30%;
+
+.body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
+.keys {
+    padding: 10px;
+}
+
 button{
     margin: auto;
-    width: 5%;
+    width: 70px;
     padding: 10px;
+
+}
+.color-div { 
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#picker-div{
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
